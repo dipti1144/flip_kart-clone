@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regester</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <style>
+
+        #form{
+            width:25%;
+            display: grid;
+            margin: auto;
+            gap:10px;
+            margin-top: 50px;
+            border: 1px solid gray;
+            padding: 20px;;
+
+
+        }
+        #form>input,button{
+            height:30px;
+            
+        }
+        #form>button{
+            /* border: 1px solid white; */
+            cursor: pointer;
+            font-weight: bold;
+            background-color: purple;
+            border: none;
+
+        }
+        #form>input{
+            padding-left: 10px;
+        }
+        p>a{
+            color: teal;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <!-- <h1>ToDo App</h1>
+        <h3>
+            <a href="./index.html">Home</a>
+        </h3>
+        <h3>
+            <a href="./product.html">Product</a>
+        </h3>
+        <h3>
+            <a href="./regester.html">Regester</a>
+        </h3> -->
+    </div>
+    <div id=form>
+        <input type="text" id="name" placeholder="Name">
+        <input type="number" id="number" placeholder="Number">
+        <input type="email" id="email" placeholder="Email ID">
+        <input type="password" id="password" placeholder="Password">
+        <button id="submit">submit</button>
+        <p>Aready register? visit <a href="./login.html">login</a></p>
+
+    </div>
+</body>
+</html>
+<script src="./script/regester.js" type="module"></script>
